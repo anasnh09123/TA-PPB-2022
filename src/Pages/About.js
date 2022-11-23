@@ -24,8 +24,7 @@ useEffect(()=>{
     fetchData()
       .then(
         ()=> setData(githubDataTemp)
-      )
-      .catch(err=>alert(err));
+      );
   },[]);
 
     return (
