@@ -14,9 +14,7 @@ useEffect(()=>{
         .get("https://api.github.com/users/anasnh09123", {
           headers:{"Authorization": "Bearer "+ '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'}
         })
-        .then((res) => {
-          githubDataTemp.push(res.data)
-        })
+        
         ;
       
     }
