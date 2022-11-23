@@ -17,9 +17,7 @@ useEffect(()=>{
         .then((res) => {
           githubDataTemp.push(res.data)
         })
-        .catch((err) => {
-          throw `gagal ${err.message}`; 
-        });
+        ;
       
     }
   
