@@ -88,3 +88,4 @@ function Men(props) {
         </div>
     );
 };
+export default Men;
