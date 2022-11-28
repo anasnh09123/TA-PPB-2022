@@ -25,7 +25,7 @@ function Men(props) {
                             'sort': '"sku":"desc"'
                         },
                         headers: {
-                            'x-rapidapi-key': '853bcaa676mshede3557e4354fefp165b00jsn0b5325299dab'
+                            'x-rapidapi-key': '2b4504e18dmshff6ca38c32c3c7dp10d262jsne0fb837995aa'
                         },
                     }
                 );
