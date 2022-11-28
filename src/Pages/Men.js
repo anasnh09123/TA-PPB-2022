@@ -78,7 +78,6 @@ function Men(props) {
     return (
         <div className="random-page d-flex flex-column align-items-center">
             {renderError()}
-            <h1 className="txt">Sneakerzz</h1>
             {isLoading ? (
                 <div className="text-white text-center mb-3">Loading...</div>
             ) : (
