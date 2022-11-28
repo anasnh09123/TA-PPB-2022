@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react";
 import "./Men.css";
 import axios from "axios";
@@ -87,5 +88,3 @@ function Men(props) {
         </div>
     );
 };
-
-export default Men;
