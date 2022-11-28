@@ -24,7 +24,7 @@ function Women(props) {
                             'sort': '"sku":"desc"'
                         },
                         headers: {
-                            'x-rapidapi-key': '853bcaa676mshede3557e4354fefp165b00jsn0b5325299dab'
+                            'x-rapidapi-key': '251c3a5c77mshac5d7391692f428p16d82fjsnc3079716cbb4'
                         },
                     }
                 );
@@ -78,7 +78,7 @@ function Women(props) {
     return (
         <div className="random-page d-flex flex-column align-items-center">
             {renderError()}
-            <h1 className="txt">Sneakerzz</h1>
+            
             {isLoading ? (
                 <div className="text-white text-center mb-3">Loading...</div>
             ) : (
