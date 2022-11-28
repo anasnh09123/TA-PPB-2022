@@ -18,7 +18,7 @@ function Home() {
                 </a>
             </div>
             <a className="textn">
-                PPRAKTIKUM PEMROGRAMAN PERANGKAT BERGERAK
+                PRAKTIKUM PEMROGRAMAN PERANGKAT BERGERAK
                 </a>
                 <a className="textn">
                 TEKNIK KOMPUTER 2020
