@@ -25,7 +25,7 @@ function Men(props) {
                             'sort': '"sku":"desc"'
                         },
                         headers: {
-                            'x-rapidapi-key': '2b4504e18dmshff6ca38c32c3c7dp10d262jsne0fb837995aa'
+                            'x-rapidapi-key': '251c3a5c77mshac5d7391692f428p16d82fjsnc3079716cbb4'
                         },
                     }
                 );
@@ -79,7 +79,7 @@ function Men(props) {
     return (
         <div className="random-page d-flex flex-column align-items-center">
             {renderError()}
-            <h1 className="txt">Sneakerzz</h1>
+            
             {isLoading ? (
                 <div className="text-white text-center mb-3">Loading...</div>
             ) : (
