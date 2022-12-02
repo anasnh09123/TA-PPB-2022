@@ -1,0 +1,50 @@
+import './App.css';
+import React from "react";
+import { NavLink, Route, Routes, Navigate } from "react-router-dom";
+import About from './Pages/About';
+import Home from './Pages/Home';
+import Men from './Pages/Men';
+import Watches from './Pages/Women';
+import Product from './Pages/Details';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="header">
+        <div className="containerhead">
+          <h1>Men's Accesories</h1>
+        </div>
+      </header>
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<Navigate replace to="/Home" />} />
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/home" element={<Home />}></Route>
+          <Route path="/men" element={<Men />}></Route>
+          <Route path="/watches" element={<Watches />}></Route>
+          <Route path="/details/:itemid" element={<Product />}></Route>
+        </Routes>
+
+        <footer>
+          <div className="containernav">
+            <NavLink to="/Home" className="iconwrapper">
+              Home
+            </NavLink>
+            <NavLink to="/Men" className="iconwrapper">
+              Shoes
+            </NavLink>
+            <NavLink to="/Watches" className="iconwrapper">
+              Watches
+            </NavLink>
+            <NavLink to="/about" className="iconwrapper">
+              About
+            </NavLink>
+
+          </div>
+        </footer>
+      </div>
+    </div>
+  );
+}
+
+export default App;
