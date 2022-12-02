@@ -8,10 +8,10 @@ function Home() {
                 alt="" />
             <div className="homepage-buttons">
                 <a href='./Men' className="btn">
-                    Men
+                    Shoes
                 </a>
                 <a href='./Women' className="btn">
-                    Women
+                    Watches
                 </a>
                 <a href='./about' className="btn">
                     About
