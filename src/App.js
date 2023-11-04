@@ -4,7 +4,7 @@ import { NavLink, Route, Routes, Navigate } from "react-router-dom";
 import About from './Pages/About';
 import Home from './Pages/Home';
 import Men from './Pages/Men';
-import Watches from './Pages/Women';
+import Women from './Pages/Women';
 import Product from './Pages/Details';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/home" element={<Home />}></Route>
           <Route path="/men" element={<Men />}></Route>
-          <Route path="/watches" element={<Watches />}></Route>
+          <Route path="/women" element={<Women />}></Route>
           <Route path="/details/:itemid" element={<Product />}></Route>
         </Routes>
 
@@ -33,8 +33,8 @@ function App() {
             <NavLink to="/Men" className="iconwrapper">
               Shoes
             </NavLink>
-            <NavLink to="/Watches" className="iconwrapper">
-              Watches
+            <NavLink to="/Women" className="iconwrapper">
+              Women
             </NavLink>
             <NavLink to="/about" className="iconwrapper">
               About
