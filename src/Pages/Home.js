@@ -10,7 +10,7 @@ function Home() {
                 <a href='./Men' className="btn">
                     Shoes
                 </a>
-                <a href='./Women' className="btn">
+                <a href='./Watches' className="btn">
                     Watches
                 </a>
                 <a href='./about' className="btn">
