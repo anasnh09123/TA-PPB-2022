@@ -3,7 +3,7 @@ import "./Women.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
-const Watches = () => {
+const Women = () => {
     const url = "https://api.escuelajs.co/api/v1/categories/2/products";
     const [products, setProducts] = useState([]);
     const getDataProducts = async () => {
